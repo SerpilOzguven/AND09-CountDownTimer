@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.textView);
 
-        new CountDownTimer(10000, 1000) {
+        new CountDownTimer(5000, 1000) {
             @Override
             public void onTick(long l) {
                 textView.setText("left:"+ l/1000);
